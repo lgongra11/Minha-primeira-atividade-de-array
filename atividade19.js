@@ -1,0 +1,10 @@
+let numeros = [90, 108, 6, 39];
+let menor = numeros[0];
+
+for (let i = 1; i < numeros.length; i++) {
+    if (numeros[i] < menor) {
+        menor = numeros[i];
+    }
+}
+
+console.log("Menor número: " + menor);
